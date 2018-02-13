@@ -1,3 +1,60 @@
-.header_text h1 {
-    font-size: 3vw;
+.content, .header{
+    margin: 0;
+}
+#main-nav {
+    background-image: url('/storage/img/banner.jpg');
+    background-position: center;
+    height: 150px;
+    width: 100%;
+    display: block;
+    line-height: 15;
+}
+
+#main .header h1 {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.section-white {
+    background-color: #ffffff;
+}
+
+.section-grey {
+    background-color: #f1f1f1;
+}
+
+.section-blue {
+    background-color: #0071bb;
+}
+.section-heading {
+    background-color: lightgray;
+    padding-left: 2px;
+}
+
+.row {
+    padding-left: 2px;
+}
+
+#main {
+    margin-top: 150px;
+}
+
+#backend-main {
+
+}
+
+#loginPanel {
+    margin-top: 100px;
+}
+
+#site-controls {
+
 }

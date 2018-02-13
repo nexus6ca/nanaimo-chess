@@ -1,23 +1,26 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card card-default">
-                <div class="card-header">Dashboard</div>
+    <div class="container-fluid">
+        <div class="first section-white row">
+            {!!  $home['news']->entry !!}
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+        </div>
 
-                    You are logged in!
-                </div>
-            </div>
+        <div class="section-grey row">
+            Our Next Tournament
+        </div>
+
+        <div class="section-white row">
+            Upcoming Tournaments
+        </div>
+
+        <div class="section-grey row">
+            Last Tournament Report
+        </div>
+
+        <div class="section-blue row">
+            Slider section
         </div>
     </div>
-</div>
 @endsection
